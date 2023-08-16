@@ -1,0 +1,109 @@
+/* APP CSS */
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #805fcc8c;
+  }
+  
+  .appTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fdff88;
+  }
+
+
+  /* CARD CSS */
+
+  .cardContainer {
+    background-color: #a5e7f8;
+
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+  }
+  
+  .cardTitle {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .cardContent {
+    font-size: 1.6rem;
+    color: #000000;
+  }
+
+  /* FORM CSS */
+
+
+  .formContainer {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a5e7f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .formTitle {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .formInput {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .formInput:focus {
+    outline: none;
+    border-color: #66afe9;
+  }
+  
+  .formButton {
+    background-color: #142d47;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .formButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .formButton:hover {
+    background-color: #344658;
+  }
+  
+  .formError {
+    color: #ff0019;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
